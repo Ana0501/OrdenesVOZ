@@ -17,50 +17,50 @@ recognition.addEventListener('result', (e)=>{
         .join('');
 console.log(text);
 if(e.results[0].isFinal){
-    if (text.includes('Encender foco uno') || text.includes('encender foco uno'))
+    if (text.includes('Encender foco') || text.includes('encender foco'))
     sec1.style.background = "url(bulb_on.jpg)";
 } 
 if(e.results[0].isFinal){
-    if (text.includes('Apagar foco uno') || text.includes('apagar foco uno'))
+    if (text.includes('Apagar foco') || text.includes('apagar foco'))
     sec1.style.background = "url(bulb_off.jpg)";
 } 
 
 if(e.results[0].isFinal){
-    if (text.includes('Encender foco dos') || text.includes('encender foco dos'))
+    if (text.includes('Encender segunda bombilla') || text.includes('encender segunda bombilla'))
     sec2.style.background = "url(bulb_on.jpg)";
 } 
 if(e.results[0].isFinal){
-    if (text.includes('Apagar foco dos') || text.includes('apagar foco dos'))
+    if (text.includes('Apagar segunda bombilla') || text.includes('Apagar segunda bombilla'))
     sec2.style.background = "url(bulb_off.jpg)";
 } 
 
 if(e.results[0].isFinal){
-    if (text.includes('Encender foco tres') || text.includes('encender foco tres'))
+    if (text.includes('Encender tercer foco') || text.includes('Encender tercer foco'))
     sec3.style.background = "url(bulb_on.jpg)";
 } 
 
 if(e.results[0].isFinal){
-    if (text.includes('Apagar foco tres') || text.includes('apagar foco tres'))
+    if (text.includes('Apagar tercer foco') || text.includes('Apagar tercer foco'))
     sec3.style.background = "url(bulb_off.jpg)";
 } 
 
 if(e.results[0].isFinal){
-    if (text.includes('Encender foco cuatro') || text.includes('encender foco cuatro'))
+    if (text.includes('Encender cuarta bombilla') || text.includes('encender cuarta bombilla'))
     sec4.style.background = "url(bulb_on.jpg)";
 } 
 
 if(e.results[0].isFinal){
-    if (text.includes('Apagar foco cuatro') || text.includes('apagar foco cuatro'))
+    if (text.includes('Apagar cuarta bombilla') || text.includes('apagar cuarta bombilla'))
     sec4.style.background = "url(bulb_off.jpg)";
 } 
 
 if(e.results[0].isFinal){
-    if (text.includes('Encender foco cinco') || text.includes('encender foco cicnco'))
+    if (text.includes('Encender quinta bombilla') || text.includes('encender quinta bombilla'))
     sec5.style.background = "url(bulb_on.jpg)";
 } 
 
 if(e.results[0].isFinal){
-    if (text.includes('Apagar foco cinco') || text.includes('apagar foco cinco'))
+    if (text.includes('Apagar quinta bombilla') || text.includes('apagar quinta bombilla'))
     sec5.style.background = "url(bulb_off.jpg)";
 } 
 });
